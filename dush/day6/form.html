@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Form</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    
+</head>
+<body>
+    
+    <form action="#" method="" autocomplete="off">
+    
+        <label for="name">name:</label>
+        <i class="fas fa-user"></i>
+        <input type="text" name="name"id="name" placeholder="enter ur name" minlength="4" maxlength="20" >
+        <div>
+        <label for="psw">enter the password:</label>
+        <i class="fas fa-unlock-alt"></i>
+        <input type="password" name="psw" id="psw" pattern=".{8}"
+        title="please type 8 characters" required>
+    </div>
+    
+        <label>Date:</label>
+        <input type="date">
+<div>
+        <label>time</label>
+        <input type="time">
+        <input type="date">
+    </div>
+    <label>time</label>
+    <input type="datetime-local">
+    <div>
+        <label for="email">email</label>
+        <input type="email" id="email" value="dush@gmail.com" readonly>
+    </div>
+    <label for="gender">gender: </label>
+    <input type="radio" value="female" name="gender" id="gender">female
+    <input type="radio" name="gender" value="male">male
+    <div>
+        <label>Languages known:</label>
+        <input type="checkbox">English
+        <input type="checkbox">kannada
+        <input type="checkbox">hindi
+        <input type="checkbox">telugu
+        <input type="checkbox">tamil
+    </div>
+    <textarea cols="30" rows="10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam velit esse aspernatur hic ex id debitis doloribus at nisi harum vero ea praesentium dolorum illo libero quasi, ipsa cumque officiis!</textarea>
+    <DIv>
+        <input type="file" >
+    </DIv>
+
+    
+    <button>Submit</button>
+    <button>Reset</button>
+    <div>
+        <button type="submit">singnup</button>
+        <button type="reset">singnup</button>
+        <select>
+            <option value="">karnataka</option>
+            <option value="">ap</option>
+            <option value="">kerala</option>
+            <option value="">tamil nadu</option>
+        </select>
+    </div>
+    <label for="food">select ur food </label>a
+    <input list="ur choice" name="food" id="food">
+    <datalist id="ur choice">
+       <option value="ragiball">ragiball</option>
+       <option value="roti">roti</option>
+       <option value="biryani">biryani</option>
+       <option value="kaju">kaju</option>
+    </datalist>
+    <div>
+        <input type="range" max="100">
+    </div>
+    <a href="tel:8618110673">clickhere</a>
+
+
+
+
+
+
+    
+    </form> 
+</body>
+</html>
